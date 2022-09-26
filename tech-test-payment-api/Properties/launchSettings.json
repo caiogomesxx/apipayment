@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "tech_test_payment_api": {
+    "Desafio": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
