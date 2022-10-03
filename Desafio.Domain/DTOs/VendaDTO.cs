@@ -7,7 +7,7 @@
         public string Status { get; set; }
         public int IdVendedor { get; set; }
         public Decimal ValorTotal { get; set; }
-        public List<ListaItensDTO> ListaItens { get; set; }
+        public List<ListaItensDTO>? ListaItens { get; set; }
         public List<ProdutoDTO> Produto { get; set; }
         public VendedorDTO Vendedor { get; set; }
         public int[]? IdProduto { get; set; }

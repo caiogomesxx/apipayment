@@ -35,7 +35,8 @@ namespace DesafioApi.Controllers
         public IActionResult RealizarVenda(VendaDTO venda)
         {
             try 
-            { 
+            {
+                
             _unitOfWork.Vendas.AddVenda(venda);
              return Created("Venda Realizada com sucesso!",venda);
             }

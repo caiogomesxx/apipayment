@@ -8,11 +8,12 @@ namespace Desafio.Infra.Repositories
 {
     public class VendaRepository : GenericRepository<Venda>, IVendaRepository
     {
+
         public VendaRepository(AppDbContext context) : base(context)
         {
         }
 
-        public void AddVenda(VendaDTO venda)
+        public int AddVenda(VendaDTO venda)
         {
             try
             {
@@ -45,13 +46,14 @@ namespace Desafio.Infra.Repositories
                 Venda tbVendaAtualizada = _context.Venda.Find(tbVenda.IdVenda);
                 tbVendaAtualizada.ValorTotal = vlrTotal;
                 _context.SaveChanges();
+                return 0;
             }
             catch (Exception er)
             {
                 throw er;
             }
         }
-        public void DeleteVenda(int idVenda)
+        public int DeleteVenda(int idVenda)
         {
             try
             {
@@ -62,6 +64,7 @@ namespace Desafio.Infra.Repositories
                 {
                     _context.ListaItens.Remove(item);
                 }
+                return 0;
                 _context.SaveChanges();
 
             }
@@ -71,7 +74,7 @@ namespace Desafio.Infra.Repositories
             }
         }
 
-        public void AtualizarVenda(int idVenda, string status)
+        public int AtualizarVenda(int idVenda, string status)
         {
             try
             {
@@ -111,6 +114,7 @@ namespace Desafio.Infra.Repositories
 
                 }
                 _context.SaveChanges();
+                return 0;
             }
             catch (Exception er)
             {
@@ -141,7 +145,9 @@ namespace Desafio.Infra.Repositories
                 }
 
                 response.Produto = lstProdutos;
-                response.Vendedor = Conversor.CastObject<VendedorDTO>(_context.Vendedor.Find(response.IdVendedor));
+                var vendedor = _context.Vendedor.Find(response.IdVendedor);
+                if(vendedor != null)
+                response.Vendedor = Conversor.CastObject<VendedorDTO>(vendedor);
                 
                 return response;
             }

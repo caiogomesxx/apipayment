@@ -5,9 +5,9 @@ namespace Desafio.Domain.Interfaces
 {
     public interface IVendaRepository : IGenericRepository<Venda>
     {
-        void AddVenda(VendaDTO venda);
-        void DeleteVenda(int idVenda);
-        void AtualizarVenda(int idVenda, string status);
+        int AddVenda(VendaDTO venda);
+        int DeleteVenda(int idVenda);
+        int AtualizarVenda(int idVenda, string status);
         VendaDTO BuscarVenda(int idVenda);
     }
 }

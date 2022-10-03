@@ -35,12 +35,13 @@ namespace Desafio.Infra.Repositories
                 throw er;
             }
         }
-        public void Add(T entity)
+        public  int Add(T entity)
         {
             try 
             {
                 _context.Add<T>(entity);
                 _context.SaveChanges();
+                return 0;
             }
             catch(Exception er) 
             {
@@ -49,13 +50,14 @@ namespace Desafio.Infra.Repositories
 
             
         }
-        public void Delete(int entity)
+        public int Delete(int entity)
         {
             try
             {
                 var toDelete = _context.Set<T>().Find(entity);
                 _context.Set<T>().Remove(toDelete);
                 _context.SaveChanges();
+                return 0;
             }
             catch (Exception er) 
             {
@@ -63,12 +65,13 @@ namespace Desafio.Infra.Repositories
             }
             
         }
-        public void Update(T entity)
+        public int Update(T entity)
         {
             try 
             {
                 _context.Set<T>().Update(entity);
                 _context.SaveChanges();
+                return 0;
             }
             catch(Exception er) 
             {

@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioApi", "DesafioApi.csproj", "{FB6574F5-019A-4196-ACF9-35EAED7C62D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioApi", "DesafioApi.csproj", "{FB6574F5-019A-4196-ACF9-35EAED7C62D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Infra", "..\Desafio.Infra\Desafio.Infra.csproj", "{843110EE-175E-4FDD-BF9D-4DF4F7939F0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Infra", "..\Desafio.Infra\Desafio.Infra.csproj", "{843110EE-175E-4FDD-BF9D-4DF4F7939F0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Domain", "..\Desafio.Domain\Desafio.Domain.csproj", "{594559C6-7023-40FD-8AFE-1C14B90449CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.Domain", "..\Desafio.Domain\Desafio.Domain.csproj", "{594559C6-7023-40FD-8AFE-1C14B90449CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio.Test", "..\Desafio.Test\Desafio.Test.csproj", "{5F1BD12E-97AD-4331-9247-720F1C79FA14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{594559C6-7023-40FD-8AFE-1C14B90449CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{594559C6-7023-40FD-8AFE-1C14B90449CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{594559C6-7023-40FD-8AFE-1C14B90449CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1BD12E-97AD-4331-9247-720F1C79FA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1BD12E-97AD-4331-9247-720F1C79FA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1BD12E-97AD-4331-9247-720F1C79FA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1BD12E-97AD-4331-9247-720F1C79FA14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
