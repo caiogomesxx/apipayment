@@ -21,7 +21,7 @@ namespace Desafio.Infra
           
  
             services.AddDbContext<AppDbContext>(options =>
-                   options.UseMySql("Server=172.18.0.2; Port=3306; Database=LocalDatabase; User=root; Password=1234;", new MySqlServerVersion(new Version())));
+                   options.UseMySql("Server=LocalHost; Database=LocalDatabase; User=root; Password=1234;", new MySqlServerVersion(new Version())));
 
 
             return services;

@@ -20,7 +20,7 @@ namespace Desafio.Infra.Context
         {
             // connect to sqlite database
             
-                   options.UseMySql("Server=172.18.0.2; Port=3306; Database=LocalDatabase; User=root; Password=1234;", new MySqlServerVersion(new Version()), mySqlOptions =>
+                   options.UseMySql("Server=LocalHost; Database=LocalDatabase; User=root; Password=1234;", new MySqlServerVersion(new Version()), mySqlOptions =>
                    {
                       
                        mySqlOptions.EnableRetryOnFailure();
