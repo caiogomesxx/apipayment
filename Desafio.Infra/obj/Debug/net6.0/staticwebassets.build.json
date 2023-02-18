@@ -1,20 +1,20 @@
 {
   "Version": 1,
-  "Hash": "L+HVvnEwrI8R11bTdpuk9M05t3LNHvkA4JSO0uYnBb4=",
+  "Hash": "9IT3dwIRp97ubYFq9F91VKyJUkAgf9JbsUQPjrlzW6Q=",
   "Source": "Desafio.Infra",
   "BasePath": "_content/Desafio.Infra",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\Desafio.Domain.csproj",
+      "Identity": "/home/caio/Downloads/apipayment/Desafio.Domain/Desafio.Domain.csproj",
       "Version": 2,
       "Source": "Desafio.Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     }
   ],

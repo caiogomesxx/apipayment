@@ -1,31 +1,31 @@
 {
   "Version": 1,
-  "Hash": "tcAzOGa3S2EiGByIbQPb8KyY+BQiycjK1HOFTvWqMUg=",
+  "Hash": "dlf1zsd0vYMcYimPvkyRL4L44P4C3q6v+ZcCKEuwU/k=",
   "Source": "DesafioApi",
   "BasePath": "_content/DesafioApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\Desafio.Domain.csproj",
+      "Identity": "/home/caio/Downloads/apipayment/Desafio.Domain/Desafio.Domain.csproj",
       "Version": 2,
       "Source": "Desafio.Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
-      "Identity": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Infra\\Desafio.Infra.csproj",
+      "Identity": "/home/caio/Downloads/apipayment/Desafio.Infra/Desafio.Infra.csproj",
       "Version": 2,
       "Source": "Desafio.Infra",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     }
   ],

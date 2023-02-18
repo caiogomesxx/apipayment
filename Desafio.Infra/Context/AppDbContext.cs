@@ -1,5 +1,6 @@
 ﻿using Desafio.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 namespace Desafio.Infra.Context
 {
@@ -14,10 +15,16 @@ namespace Desafio.Infra.Context
             Configuration = configuration;
         }
 
+  
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             // connect to sqlite database
-            options.UseSqlite(Configuration.GetConnectionString("WebApiDatabase"));
+            
+                   options.UseMySql("Server=172.18.0.2; Port=3306; Database=LocalDatabase; User=root; Password=1234;", new MySqlServerVersion(new Version()), mySqlOptions =>
+                   {
+                      
+                       mySqlOptions.EnableRetryOnFailure();
+                   });
         }
 
         public DbSet<Vendedor>? Vendedor { get; set; }

@@ -1,7 +1,10 @@
 ﻿using Desafio.Domain.Interfaces;
 using Desafio.Infra.Context;
 using Desafio.Infra.Repositories;
+
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+
 
 namespace Desafio.Infra
 {
@@ -15,8 +18,11 @@ namespace Desafio.Infra
             services.AddTransient<IListaItensRepository, ListaItensRepository>();
             services.AddTransient<IVendaRepository, VendaRepository>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
+          
+ 
+            services.AddDbContext<AppDbContext>(options =>
+                   options.UseMySql("Server=172.18.0.2; Port=3306; Database=LocalDatabase; User=root; Password=1234;", new MySqlServerVersion(new Version())));
 
-            services.AddDbContext<AppDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("WebApiDatabase")));
 
             return services;
         }

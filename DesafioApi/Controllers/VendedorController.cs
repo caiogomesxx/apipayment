@@ -21,7 +21,7 @@ namespace DesafioApi.Controllers
             try
             {
                 var response = _unitOfWork.Vendedor.Get(id);
-                if (response is null)
+                if (response.Result is null)
                     return NotFound();
 
                 return Ok(response);

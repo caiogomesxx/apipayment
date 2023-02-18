@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\DesafioApi\\DesafioApi.csproj": {}
+    "/home/caio/Downloads/apipayment/DesafioApi/DesafioApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\Desafio.Domain.csproj": {
+    "/home/caio/Downloads/apipayment/Desafio.Domain/Desafio.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\Desafio.Domain.csproj",
+        "projectUniqueName": "/home/caio/Downloads/apipayment/Desafio.Domain/Desafio.Domain.csproj",
         "projectName": "Desafio.Domain",
-        "projectPath": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\Desafio.Domain.csproj",
-        "packagesPath": "C:\\Users\\caio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\obj\\",
+        "projectPath": "/home/caio/Downloads/apipayment/Desafio.Domain/Desafio.Domain.csproj",
+        "packagesPath": "/home/caio/.nuget/packages/",
+        "outputPath": "/home/caio/Downloads/apipayment/Desafio.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\caio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/caio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,36 +61,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Infra\\Desafio.Infra.csproj": {
+    "/home/caio/Downloads/apipayment/Desafio.Infra/Desafio.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Infra\\Desafio.Infra.csproj",
+        "projectUniqueName": "/home/caio/Downloads/apipayment/Desafio.Infra/Desafio.Infra.csproj",
         "projectName": "Desafio.Infra",
-        "projectPath": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Infra\\Desafio.Infra.csproj",
-        "packagesPath": "C:\\Users\\caio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Infra\\obj\\",
+        "projectPath": "/home/caio/Downloads/apipayment/Desafio.Infra/Desafio.Infra.csproj",
+        "packagesPath": "/home/caio/.nuget/packages/",
+        "outputPath": "/home/caio/Downloads/apipayment/Desafio.Infra/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\caio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/caio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\Desafio.Domain.csproj": {
-                "projectPath": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\Desafio.Domain.csproj"
+              "/home/caio/Downloads/apipayment/Desafio.Domain/Desafio.Domain.csproj": {
+                "projectPath": "/home/caio/Downloads/apipayment/Desafio.Domain/Desafio.Domain.csproj"
               }
             }
           }
@@ -117,13 +113,19 @@
               "target": "Package",
               "version": "[6.0.9, )"
             },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.9, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[6.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql.Design": {
+              "target": "Package",
+              "version": "[1.1.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -148,39 +150,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\DesafioApi\\DesafioApi.csproj": {
+    "/home/caio/Downloads/apipayment/DesafioApi/DesafioApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\DesafioApi\\DesafioApi.csproj",
+        "projectUniqueName": "/home/caio/Downloads/apipayment/DesafioApi/DesafioApi.csproj",
         "projectName": "DesafioApi",
-        "projectPath": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\DesafioApi\\DesafioApi.csproj",
-        "packagesPath": "C:\\Users\\caio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\DesafioApi\\obj\\",
+        "projectPath": "/home/caio/Downloads/apipayment/DesafioApi/DesafioApi.csproj",
+        "packagesPath": "/home/caio/.nuget/packages/",
+        "outputPath": "/home/caio/Downloads/apipayment/DesafioApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\caio\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/caio/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\Desafio.Domain.csproj": {
-                "projectPath": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\Desafio.Domain.csproj"
+              "/home/caio/Downloads/apipayment/Desafio.Domain/Desafio.Domain.csproj": {
+                "projectPath": "/home/caio/Downloads/apipayment/Desafio.Domain/Desafio.Domain.csproj"
               },
-              "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Infra\\Desafio.Infra.csproj": {
-                "projectPath": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Infra\\Desafio.Infra.csproj"
+              "/home/caio/Downloads/apipayment/Desafio.Infra/Desafio.Infra.csproj": {
+                "projectPath": "/home/caio/Downloads/apipayment/Desafio.Infra/Desafio.Infra.csproj"
               }
             }
           }
@@ -195,6 +195,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -218,7 +224,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
         }
       }
     }

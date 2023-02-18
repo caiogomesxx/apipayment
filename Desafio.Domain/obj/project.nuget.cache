@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "3B/fAfJMW7VJiKWxw9aJK0eEZM4Ck8/tf8uQ+zgzKQ//rRoU9Tkc7+V7M+/tJMv4UPNqgx8Ir1UnBKrmaMvrKA==",
+  "dgSpecHash": "t8l7zBDmw0JCKqQUVLkdl5U/JH8QlsZAvhfocI++Tij/jrtb9M0c6rb/myptXQLK0GzgKe/GfvP2M4ZiuoOThQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\caio\\Documents\\GitHub\\tech-test-payment-api\\Desafio.Domain\\Desafio.Domain.csproj",
+  "projectFilePath": "/home/caio/Downloads/apipayment/Desafio.Domain/Desafio.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\caio\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\caio\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\caio\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\caio\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\caio\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\caio\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "/home/caio/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/caio/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/caio/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/caio/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/caio/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/caio/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
   ],
   "logs": []
 }

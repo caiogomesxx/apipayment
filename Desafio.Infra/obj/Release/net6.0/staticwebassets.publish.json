@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "J02bBCWEal57sLTHz3jL9rsO5dPUTCsJCVqCombC/3w=",
+  "Source": "Desafio.Infra",
+  "BasePath": "_content/Desafio.Infra",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/home/caio/apipayment/Desafio.Domain/Desafio.Domain.csproj",
+      "Version": 2,
+      "Source": "Desafio.Domain",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

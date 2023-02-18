@@ -20,7 +20,8 @@ namespace DesafioApi.Controllers
         {
             try 
             {
-             var response = Conversor.CastObject<ProdutoDTO>(await _unitOfWork.Produtos.Get(id));
+             var response = await _unitOfWork.Produtos.Get(id);
+             
                 if (response is null)
                     return  NotFound();
                 return Ok(response);

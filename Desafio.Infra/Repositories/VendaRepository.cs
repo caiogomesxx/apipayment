@@ -126,13 +126,17 @@ namespace Desafio.Infra.Repositories
         {
             try
             {
+                VendaDTO response = null;
                 var tbVenda = _context.Venda.Find(idVenda);
+                if(tbVenda is not null)
+                {
                 var tbItens = _context.ListaItens.Where(x => x.IdVenda == idVenda).ToList();
                 ProdutoDTO produto = new ProdutoDTO();
-                VendaDTO response = new VendaDTO();
+                response = new VendaDTO();
                 response.IdVenda = tbVenda.IdVenda;
                 response.Data = tbVenda.Data;
                 response.Status = tbVenda.Status;
+                
                 response.IdVendedor = tbVenda.IdVendedor;
                 List<ProdutoDTO> lstProdutos = new List<ProdutoDTO>();
                 
@@ -148,6 +152,7 @@ namespace Desafio.Infra.Repositories
                 var vendedor = _context.Vendedor.Find(response.IdVendedor);
                 if(vendedor != null)
                 response.Vendedor = Conversor.CastObject<VendedorDTO>(vendedor);
+                }
                 
                 return response;
             }

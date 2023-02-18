@@ -1,0 +1,9 @@
+/home/caio/apipayment/DesafioApi/dist/Desafio.Domain
+/home/caio/apipayment/DesafioApi/dist/Desafio.Domain.dll
+/home/caio/apipayment/DesafioApi/dist/Desafio.Domain.deps.json
+/home/caio/apipayment/DesafioApi/dist/Desafio.Domain.runtimeconfig.json
+/home/caio/apipayment/DesafioApi/dist/Desafio.Domain.pdb
+/home/caio/apipayment/DesafioApi/dist/Microsoft.OpenApi.dll
+/home/caio/apipayment/DesafioApi/dist/Swashbuckle.AspNetCore.Swagger.dll
+/home/caio/apipayment/DesafioApi/dist/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/caio/apipayment/DesafioApi/dist/Swashbuckle.AspNetCore.SwaggerUI.dll
